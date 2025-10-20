@@ -3,15 +3,12 @@
 * { box-sizing:border-box; }
 html, body { margin:0; padding:0; background:var(--bg); color:var(--fg); font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
 
-/* Page background:
-   - Place your uploaded space image at /assets/space-bg.jpg in the repo,
-     or change the URL below to the location where you'll host the image.
-   - A semi-opaque overlay keeps text readable over the image.
-*/
+
 body {
   background-image:
     linear-gradient(var(--bg-overlay), var(--bg-overlay)),
-    url('/assets/space-bg.jpg');
+    url('https://raw.githubusercontent.com/FiaVerse/fiaverse.github.io/main/space-bg.jpg');
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
